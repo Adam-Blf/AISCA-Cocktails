@@ -1,0 +1,348 @@
+{
+  "cocktails": [
+    {
+      "id": "mojito",
+      "name": "Mojito",
+      "description": "Cocktail cubain rafraîchissant à base de rhum blanc, menthe fraîche et citron vert. Parfait pour les chaudes journées d'été.",
+      "tags": ["rafraîchissant", "été", "menthe", "rhum", "citron", "cubain", "frais", "léger"],
+      "base_spirit": "rhum",
+      "flavor_profile": ["frais", "acidulé", "sucré", "herbacé"],
+      "difficulty": "facile",
+      "base_cost": 8,
+      "ingredients": [
+        {"name": "Rhum blanc", "quantity": "50ml", "alternatives": ["Rhum ambré", "Cachaça"]},
+        {"name": "Menthe fraîche", "quantity": "10 feuilles", "alternatives": []},
+        {"name": "Citron vert", "quantity": "1 entier", "alternatives": ["Citron jaune"]},
+        {"name": "Sucre de canne", "quantity": "2 cuillères à café", "alternatives": ["Sirop de sucre"]},
+        {"name": "Eau gazeuse", "quantity": "100ml", "alternatives": ["Perrier", "Schweppes"]}
+      ],
+      "embedding": []
+    },
+    {
+      "id": "pina-colada",
+      "name": "Piña Colada",
+      "description": "Cocktail tropical crémeux aux saveurs d'ananas et de noix de coco. Une escapade exotique dans un verre.",
+      "tags": ["tropical", "crémeux", "ananas", "coco", "rhum", "exotique", "doux", "vacances"],
+      "base_spirit": "rhum",
+      "flavor_profile": ["sucré", "crémeux", "tropical", "onctueux"],
+      "difficulty": "moyen",
+      "base_cost": 12,
+      "ingredients": [
+        {"name": "Rhum blanc", "quantity": "50ml", "alternatives": ["Rhum ambré"]},
+        {"name": "Crème de coco", "quantity": "30ml", "alternatives": ["Lait de coco"]},
+        {"name": "Jus d'ananas", "quantity": "90ml", "alternatives": []},
+        {"name": "Glace pilée", "quantity": "1 tasse", "alternatives": []}
+      ],
+      "embedding": []
+    },
+    {
+      "id": "margarita",
+      "name": "Margarita",
+      "description": "Cocktail mexicain classique à la tequila et au citron vert avec un bord salé. Équilibre parfait entre acidité et douceur.",
+      "tags": ["mexicain", "tequila", "citron", "salé", "classique", "apéritif", "festif"],
+      "base_spirit": "tequila",
+      "flavor_profile": ["acidulé", "salé", "agrumes", "vif"],
+      "difficulty": "facile",
+      "base_cost": 10,
+      "ingredients": [
+        {"name": "Tequila blanco", "quantity": "50ml", "alternatives": ["Tequila reposado"]},
+        {"name": "Triple sec", "quantity": "25ml", "alternatives": ["Cointreau", "Grand Marnier"]},
+        {"name": "Jus de citron vert", "quantity": "25ml", "alternatives": []},
+        {"name": "Sel", "quantity": "pour le bord", "alternatives": []}
+      ],
+      "embedding": []
+    },
+    {
+      "id": "cosmopolitan",
+      "name": "Cosmopolitan",
+      "description": "Cocktail élégant et sophistiqué à la vodka et aux canneberges. Popularisé par Sex and the City.",
+      "tags": ["élégant", "vodka", "canneberge", "chic", "féminin", "soirée", "rose"],
+      "base_spirit": "vodka",
+      "flavor_profile": ["fruité", "acidulé", "élégant", "sec"],
+      "difficulty": "facile",
+      "base_cost": 11,
+      "ingredients": [
+        {"name": "Vodka", "quantity": "40ml", "alternatives": ["Vodka citron"]},
+        {"name": "Triple sec", "quantity": "15ml", "alternatives": ["Cointreau"]},
+        {"name": "Jus de cranberry", "quantity": "30ml", "alternatives": []},
+        {"name": "Jus de citron vert", "quantity": "15ml", "alternatives": []}
+      ],
+      "embedding": []
+    },
+    {
+      "id": "old-fashioned",
+      "name": "Old Fashioned",
+      "description": "Le cocktail classique par excellence. Whisky bourbon avec une touche de sucre et d'amers. Pour les amateurs de spiritueux.",
+      "tags": ["classique", "whisky", "bourbon", "élégant", "fort", "sophistiqué", "masculin"],
+      "base_spirit": "whisky",
+      "flavor_profile": ["boisé", "amer", "sucré", "puissant"],
+      "difficulty": "facile",
+      "base_cost": 12,
+      "ingredients": [
+        {"name": "Bourbon", "quantity": "60ml", "alternatives": ["Rye whisky", "Scotch"]},
+        {"name": "Angostura bitters", "quantity": "2 traits", "alternatives": []},
+        {"name": "Sucre", "quantity": "1 morceau", "alternatives": ["Sirop de sucre"]},
+        {"name": "Zeste d'orange", "quantity": "1", "alternatives": []}
+      ],
+      "embedding": []
+    },
+    {
+      "id": "daiquiri",
+      "name": "Daiquiri",
+      "description": "Cocktail cubain simple et élégant au rhum et citron vert. La base parfaite pour de nombreuses variations fruitées.",
+      "tags": ["cubain", "rhum", "citron", "simple", "élégant", "classique", "été"],
+      "base_spirit": "rhum",
+      "flavor_profile": ["acidulé", "sucré", "frais", "équilibré"],
+      "difficulty": "facile",
+      "base_cost": 9,
+      "ingredients": [
+        {"name": "Rhum blanc", "quantity": "60ml", "alternatives": []},
+        {"name": "Jus de citron vert", "quantity": "30ml", "alternatives": []},
+        {"name": "Sirop de sucre", "quantity": "15ml", "alternatives": ["Sucre de canne"]}
+      ],
+      "embedding": []
+    },
+    {
+      "id": "caipirinha",
+      "name": "Caïpirinha",
+      "description": "Le cocktail national du Brésil à base de cachaça et citron vert pilé. Frais et puissant.",
+      "tags": ["brésilien", "cachaça", "citron", "frais", "puissant", "été", "festif"],
+      "base_spirit": "cachaça",
+      "flavor_profile": ["acidulé", "sucré", "fort", "frais"],
+      "difficulty": "facile",
+      "base_cost": 8,
+      "ingredients": [
+        {"name": "Cachaça", "quantity": "60ml", "alternatives": ["Rhum blanc"]},
+        {"name": "Citron vert", "quantity": "1 entier", "alternatives": []},
+        {"name": "Sucre de canne", "quantity": "2 cuillères à café", "alternatives": []}
+      ],
+      "embedding": []
+    },
+    {
+      "id": "negroni",
+      "name": "Negroni",
+      "description": "Cocktail italien amer et sophistiqué. Mélange parfait de gin, Campari et vermouth rouge.",
+      "tags": ["italien", "amer", "sophistiqué", "gin", "apéritif", "classique", "rouge"],
+      "base_spirit": "gin",
+      "flavor_profile": ["amer", "herbacé", "complexe", "sec"],
+      "difficulty": "facile",
+      "base_cost": 11,
+      "ingredients": [
+        {"name": "Gin", "quantity": "30ml", "alternatives": []},
+        {"name": "Campari", "quantity": "30ml", "alternatives": ["Aperol"]},
+        {"name": "Vermouth rouge", "quantity": "30ml", "alternatives": []}
+      ],
+      "embedding": []
+    },
+    {
+      "id": "espresso-martini",
+      "name": "Espresso Martini",
+      "description": "Cocktail caféiné et énergisant. Parfait pour commencer la soirée avec un boost de caféine.",
+      "tags": ["café", "vodka", "énergisant", "soirée", "moderne", "crémeux", "sophistiqué"],
+      "base_spirit": "vodka",
+      "flavor_profile": ["café", "amer", "sucré", "velouté"],
+      "difficulty": "moyen",
+      "base_cost": 13,
+      "ingredients": [
+        {"name": "Vodka", "quantity": "50ml", "alternatives": []},
+        {"name": "Liqueur de café", "quantity": "30ml", "alternatives": ["Kahlúa", "Tia Maria"]},
+        {"name": "Espresso", "quantity": "30ml", "alternatives": ["Café fort"]},
+        {"name": "Sirop de sucre", "quantity": "10ml", "alternatives": []}
+      ],
+      "embedding": []
+    },
+    {
+      "id": "moscow-mule",
+      "name": "Moscow Mule",
+      "description": "Cocktail rafraîchissant au gingembre épicé. Traditionnellement servi dans une tasse en cuivre.",
+      "tags": ["gingembre", "vodka", "rafraîchissant", "épicé", "pétillant", "été", "cuivre"],
+      "base_spirit": "vodka",
+      "flavor_profile": ["épicé", "frais", "pétillant", "acidulé"],
+      "difficulty": "facile",
+      "base_cost": 9,
+      "ingredients": [
+        {"name": "Vodka", "quantity": "50ml", "alternatives": []},
+        {"name": "Ginger beer", "quantity": "120ml", "alternatives": ["Ginger ale"]},
+        {"name": "Jus de citron vert", "quantity": "15ml", "alternatives": []}
+      ],
+      "embedding": []
+    },
+    {
+      "id": "aperol-spritz",
+      "name": "Aperol Spritz",
+      "description": "L'apéritif italien par excellence. Léger, pétillant et parfait pour l'heure dorée.",
+      "tags": ["italien", "apéritif", "pétillant", "léger", "orange", "été", "terrasse"],
+      "base_spirit": "aperol",
+      "flavor_profile": ["amer léger", "fruité", "pétillant", "frais"],
+      "difficulty": "facile",
+      "base_cost": 8,
+      "ingredients": [
+        {"name": "Aperol", "quantity": "60ml", "alternatives": []},
+        {"name": "Prosecco", "quantity": "90ml", "alternatives": ["Crémant", "Champagne"]},
+        {"name": "Eau gazeuse", "quantity": "30ml", "alternatives": []},
+        {"name": "Tranche d'orange", "quantity": "1", "alternatives": []}
+      ],
+      "embedding": []
+    },
+    {
+      "id": "gin-tonic",
+      "name": "Gin Tonic",
+      "description": "Le classique britannique intemporel. Simple mais parfait avec un bon gin et un tonic de qualité.",
+      "tags": ["britannique", "gin", "classique", "simple", "rafraîchissant", "apéritif", "botanique"],
+      "base_spirit": "gin",
+      "flavor_profile": ["botanique", "amer", "frais", "sec"],
+      "difficulty": "facile",
+      "base_cost": 10,
+      "ingredients": [
+        {"name": "Gin", "quantity": "50ml", "alternatives": []},
+        {"name": "Tonic", "quantity": "150ml", "alternatives": ["Fever-Tree", "Schweppes"]},
+        {"name": "Tranche de citron", "quantity": "1", "alternatives": ["Concombre"]}
+      ],
+      "embedding": []
+    },
+    {
+      "id": "whisky-sour",
+      "name": "Whisky Sour",
+      "description": "Cocktail équilibré entre l'acidité du citron et la douceur du whisky. Onctueux avec le blanc d'œuf.",
+      "tags": ["whisky", "citron", "onctueux", "classique", "équilibré", "sophistiqué"],
+      "base_spirit": "whisky",
+      "flavor_profile": ["acidulé", "sucré", "onctueux", "boisé"],
+      "difficulty": "moyen",
+      "base_cost": 11,
+      "ingredients": [
+        {"name": "Bourbon", "quantity": "50ml", "alternatives": ["Rye whisky"]},
+        {"name": "Jus de citron", "quantity": "25ml", "alternatives": []},
+        {"name": "Sirop de sucre", "quantity": "15ml", "alternatives": []},
+        {"name": "Blanc d'œuf", "quantity": "1", "alternatives": ["Aquafaba"]}
+      ],
+      "embedding": []
+    },
+    {
+      "id": "mai-tai",
+      "name": "Mai Tai",
+      "description": "Cocktail tiki tropical aux rhums mélangés. Saveurs d'amande et d'agrumes pour une ambiance polynésienne.",
+      "tags": ["tiki", "tropical", "rhum", "exotique", "amande", "polynésien", "été"],
+      "base_spirit": "rhum",
+      "flavor_profile": ["tropical", "sucré", "fruité", "complexe"],
+      "difficulty": "moyen",
+      "base_cost": 14,
+      "ingredients": [
+        {"name": "Rhum blanc", "quantity": "30ml", "alternatives": []},
+        {"name": "Rhum ambré", "quantity": "30ml", "alternatives": []},
+        {"name": "Curaçao orange", "quantity": "15ml", "alternatives": ["Triple sec"]},
+        {"name": "Sirop d'orgeat", "quantity": "15ml", "alternatives": []},
+        {"name": "Jus de citron vert", "quantity": "30ml", "alternatives": []}
+      ],
+      "embedding": []
+    },
+    {
+      "id": "sex-on-the-beach",
+      "name": "Sex on the Beach",
+      "description": "Cocktail fruité et coloré aux saveurs de pêche et de canneberge. Parfait pour les soirées d'été.",
+      "tags": ["fruité", "vodka", "pêche", "coloré", "été", "soirée", "doux"],
+      "base_spirit": "vodka",
+      "flavor_profile": ["fruité", "sucré", "léger", "tropical"],
+      "difficulty": "facile",
+      "base_cost": 10,
+      "ingredients": [
+        {"name": "Vodka", "quantity": "40ml", "alternatives": []},
+        {"name": "Liqueur de pêche", "quantity": "20ml", "alternatives": []},
+        {"name": "Jus d'orange", "quantity": "40ml", "alternatives": []},
+        {"name": "Jus de cranberry", "quantity": "40ml", "alternatives": []}
+      ],
+      "embedding": []
+    },
+    {
+      "id": "bloody-mary",
+      "name": "Bloody Mary",
+      "description": "Le cocktail brunch par excellence. Épicé et revigorant à base de jus de tomate et vodka.",
+      "tags": ["brunch", "tomate", "épicé", "vodka", "revigorant", "salé", "classique"],
+      "base_spirit": "vodka",
+      "flavor_profile": ["épicé", "salé", "umami", "acidulé"],
+      "difficulty": "moyen",
+      "base_cost": 9,
+      "ingredients": [
+        {"name": "Vodka", "quantity": "50ml", "alternatives": []},
+        {"name": "Jus de tomate", "quantity": "120ml", "alternatives": []},
+        {"name": "Jus de citron", "quantity": "15ml", "alternatives": []},
+        {"name": "Sauce Worcestershire", "quantity": "2 traits", "alternatives": []},
+        {"name": "Tabasco", "quantity": "2 gouttes", "alternatives": ["Sriracha"]},
+        {"name": "Sel et poivre", "quantity": "au goût", "alternatives": []}
+      ],
+      "embedding": []
+    },
+    {
+      "id": "mojito-fraise",
+      "name": "Mojito Fraise",
+      "description": "Variation fruitée du mojito classique avec des fraises fraîches. Douceur et fraîcheur combinées.",
+      "tags": ["fraise", "rhum", "menthe", "fruité", "été", "doux", "rose"],
+      "base_spirit": "rhum",
+      "flavor_profile": ["fruité", "sucré", "frais", "doux"],
+      "difficulty": "facile",
+      "base_cost": 10,
+      "ingredients": [
+        {"name": "Rhum blanc", "quantity": "50ml", "alternatives": []},
+        {"name": "Fraises fraîches", "quantity": "5", "alternatives": ["Purée de fraise"]},
+        {"name": "Menthe fraîche", "quantity": "8 feuilles", "alternatives": []},
+        {"name": "Jus de citron vert", "quantity": "20ml", "alternatives": []},
+        {"name": "Sirop de sucre", "quantity": "15ml", "alternatives": []},
+        {"name": "Eau gazeuse", "quantity": "50ml", "alternatives": []}
+      ],
+      "embedding": []
+    },
+    {
+      "id": "blue-lagoon",
+      "name": "Blue Lagoon",
+      "description": "Cocktail spectaculaire d'un bleu éclatant. Saveurs d'agrumes avec une touche exotique.",
+      "tags": ["bleu", "vodka", "coloré", "agrumes", "spectaculaire", "soirée", "tropical"],
+      "base_spirit": "vodka",
+      "flavor_profile": ["agrumes", "sucré", "frais", "léger"],
+      "difficulty": "facile",
+      "base_cost": 9,
+      "ingredients": [
+        {"name": "Vodka", "quantity": "40ml", "alternatives": []},
+        {"name": "Curaçao bleu", "quantity": "20ml", "alternatives": []},
+        {"name": "Jus de citron", "quantity": "20ml", "alternatives": []},
+        {"name": "Limonade", "quantity": "100ml", "alternatives": ["Sprite"]}
+      ],
+      "embedding": []
+    },
+    {
+      "id": "long-island",
+      "name": "Long Island Iced Tea",
+      "description": "Cocktail puissant mélangeant plusieurs spiritueux. Apparence trompeuse de thé glacé mais très fort.",
+      "tags": ["fort", "puissant", "multi-spiritueux", "soirée", "classique", "américain"],
+      "base_spirit": "multi",
+      "flavor_profile": ["équilibré", "sucré", "acidulé", "fort"],
+      "difficulty": "moyen",
+      "base_cost": 14,
+      "ingredients": [
+        {"name": "Vodka", "quantity": "15ml", "alternatives": []},
+        {"name": "Gin", "quantity": "15ml", "alternatives": []},
+        {"name": "Rhum blanc", "quantity": "15ml", "alternatives": []},
+        {"name": "Tequila", "quantity": "15ml", "alternatives": []},
+        {"name": "Triple sec", "quantity": "15ml", "alternatives": []},
+        {"name": "Jus de citron", "quantity": "25ml", "alternatives": []},
+        {"name": "Sirop de sucre", "quantity": "15ml", "alternatives": []},
+        {"name": "Cola", "quantity": "un filet", "alternatives": []}
+      ],
+      "embedding": []
+    },
+    {
+      "id": "tequila-sunrise",
+      "name": "Tequila Sunrise",
+      "description": "Cocktail coloré évoquant un lever de soleil. Dégradé de couleurs orange à rouge.",
+      "tags": ["tequila", "coloré", "orange", "fruité", "mexicain", "été", "visuel"],
+      "base_spirit": "tequila",
+      "flavor_profile": ["fruité", "sucré", "agrumes", "doux"],
+      "difficulty": "facile",
+      "base_cost": 9,
+      "ingredients": [
+        {"name": "Tequila", "quantity": "50ml", "alternatives": []},
+        {"name": "Jus d'orange", "quantity": "120ml", "alternatives": []},
+        {"name": "Grenadine", "quantity": "15ml", "alternatives": []}
+      ],
+      "embedding": []
+    }
+  ]
+}
