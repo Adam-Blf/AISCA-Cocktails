@@ -1,8 +1,12 @@
 # AISCA-Cocktails
 
 ![Status](https://img.shields.io/badge/status-in%20development-yellow)
-![Python](https://img.shields.io/badge/python-3.10+-blue)
-![Streamlit](https://img.shields.io/badge/streamlit-1.28+-red)
+![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)
+![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?logo=streamlit&logoColor=white)
+![SBERT](https://img.shields.io/badge/Sentence--Transformers-FFD21E?logo=huggingface&logoColor=black)
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?logo=pytorch&logoColor=white)
+![Gemini](https://img.shields.io/badge/Gemini-8E75B2?logo=google&logoColor=white)
+![EFREI](https://img.shields.io/badge/EFREI-Paris-000091)
 
 ## Description
 
