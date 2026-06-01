@@ -21,6 +21,29 @@
 
 ---
 
+## Architecture
+
+```mermaid
+flowchart TB
+    UI["Frontend Streamlit<br/>frontend/app.py · saisie envie · slider budget"]
+    ENG["Semantic Engine<br/>backend/semantic_engine.py · SBERT local"]
+    SBERT["Modèle all-MiniLM-L6-v2<br/>encodage requête · similarité cosinus · top-K"]
+    DATA["data/cocktails.json<br/>référentiel · embeddings 384 dim pré-calculés"]
+    MODELS["backend/models.py<br/>schémas Pydantic · validation"]
+    RAG["RAG Generator<br/>backend/rag_generator.py · prompt + budget"]
+    LLM["GenAI Gemini ou OpenAI<br/>génération recette détaillée"]
+
+    UI --> ENG
+    ENG --> SBERT
+    SBERT --> DATA
+    ENG --> MODELS
+    ENG --> RAG
+    RAG --> LLM
+    LLM --> UI
+```
+
+---
+
 ## Architecture Technique
 
 ```
