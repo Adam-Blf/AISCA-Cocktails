@@ -1,3 +1,8 @@
+> **Depot consolide.** Coquille de 44 ko, le projet reel vit dans ia-pero.
+>
+> Le developpement se poursuit sur **[ia-pero](https://github.com/Adam-Blf/ia-pero)**.
+> Ce depot est conserve en archive pour son historique.
+
 # AISCA-Cocktails
 
 [![version](https://img.shields.io/badge/version-0.1.0-000091?style=flat-square)](https://github.com/Adam-Blf/AISCA-Cocktails/releases)
